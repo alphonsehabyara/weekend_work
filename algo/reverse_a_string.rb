@@ -3,7 +3,7 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-
+  string.chars.reduce([]){|word, char| word.unshift char}.join
 end
 
 # Driver code - don't touch anything below this line.
